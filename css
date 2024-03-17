@@ -1,1 +1,51 @@
+ <style>
+            * {
+            margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;}
 
+h1{ text-align: center;}
+body{}
+
+.p{background-color: gray; width: 32%;
+    border: 1px solid black;float: left;margin-left: 10px;
+      margin-bottom: 10px;
+}
+
+.p1 h2{width:100px; background-color: brown;
+     position:relative; float: right ;}
+
+     .p2 h2{width:100px; background-color: rgb(198, 45, 193);
+     position:relative; float: right ;}
+
+     .p3 h2{width:100px; background-color: rgb(69, 165, 42);
+     position:relative; float: right ;}
+
+     p{clear:right; ;}
+
+     #container{width: 100%}
+
+     @media (min-width:1200px)
+     {.p1,.p2,.p3 {float: left;}} 
+     .p p1{width: 32%;}
+     .p p2{width: 32%;}
+     .p p3{width: 32%;}  
+    
+
+     @media (min-width:950px)and(max-width:1199px)
+     {.p1,.p2,.p3 {float: left;}}  
+     .p p1{width: 40%;} 
+     .p p2{width: 40%;} 
+     .p p3{width: 80%;}  
+
+
+
+     @media (min-width:768px)and(max-width:949px) 
+     {.p1,.p2,.p3 {float: left;}}  
+     .p p1{width: 80%;} 
+     .p p2{width: 80%;} 
+     .p p3{width: 80%;} 
+    
+
+        </style>
